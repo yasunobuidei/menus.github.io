@@ -187,17 +187,27 @@ a {
     margin-top: 7.34vw;
     margin-bottom:17.18vw;
     }
-#menu1{width:0px;
-    display:none; 
+#menu1{width:29.88px;
+    display:block; 
     margin: auto;
-    position: absolute;
-    top:10px;
-    right:auto;}
-     #menu2{width:0vw;
-    display: none; 
-    margin-top: 3vw;
-    margin-left: 0vw;}
-    #menu{width: 16.76vw;
+    margin-left:14.23vw;
+    margin-top:13.84vw;
+    margin-bottom:0vw;}
+#menu2{width:29.88px;
+    display:block; 
+    margin: auto;
+    margin-left:14.23vw;
+    margin-top:-2.89vw;
+    margin-bottom:0vw;}
+#menu3{width:49.26px;
+    display:block; 
+    margin: auto;
+    margin-left:14.23vw;
+    margin-top:-2.89vw;
+    margin-bottom:0vw;}
+     
+   
+    #menu{width: 7.84vw;
         display: block; 
         margin-left:1.93vw;
         margin-top: 7.34vw;
@@ -206,7 +216,7 @@ a {
      #taiyo{width: 7.84vw;
             height: 7.84vw;
         display: block; 
-        margin-left:16.6vw;
+        margin-left:25.97vw;
         margin-top: 7.34vw;
         margin-bottom:17.18vw;
         }
