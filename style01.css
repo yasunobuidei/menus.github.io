@@ -1,0 +1,343 @@
+a {
+    color:#999999 ;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #4d4d4d;;
+  }
+
+  body {
+    background-color:#fffffc;
+  }
+
+
+@media screen and (min-width:768px) {
+ #name{width:24vw;
+        display: block; 
+        margin-top: 0.8vw;
+        margin-left: 0.8vw;
+        margin-right: 25.66vw;
+        margin-bottom: 7.94vw;
+    }
+    }
+ #menu1{width:12.33vw;
+    display: block; 
+    margin-top: 0.8vw;
+    margin-left: 0vw;}
+ #menu2{width:20.35vw;
+    display: block; 
+    margin-top: 0.8vw;
+    margin-left: 0vw;}
+        #menu{width: 0px;
+            display: block; 
+            margin: auto;}
+            #instagram{height:2vw;
+                display: block; 
+                margin-top: 2.7vw;
+                margin-left: 5vw;}
+#taiyo{width: 3.73vw;
+       height: 3.73vw;
+            display: block;
+            margin-top:0.8vw;
+      margin-left: 0vw;}
+ 
+
+ .app {
+         width: 100vw;
+         height: 100vh;
+         border: 0px solid blue;
+         display: flex;
+         flex-direction: column;
+           }        
+ .header {
+         height: 15vw;
+         background-color: transparent;
+         box-sizing: border-box;
+         border: 0px solid blue;
+         position: sticky;
+         top: 00px;
+         display: flex;
+         flex-direction:row;
+         flex-grow: 1;
+            
+           }
+ 
+ .main {
+         display: flex;
+         flex-direction: column;
+         flex-grow:1;
+         border: 0px solid blue;
+           }
+ 
+
+ .content {
+         display: flex;
+         flex-direction: row;
+         flex-grow: 1;
+         border: 0px solid blue;
+           }
+           #photo{width: 40vw;
+            display: block; 
+            margin: auto;
+            margin-bottom: 5vw;
+            margin-left: 7.5vw;
+            margin-top: 0;
+            
+
+ 
+ }
+
+.box a:last-of-type {
+  display: block;
+  opacity: 0;
+  transition: opacity .7s;
+}
+.box a:first-of-type {
+  display: block;
+  opacity: 1;
+}
+.boxsp a:last-of-type {
+  display: none; 
+  opacity: 0;
+  transition: opacity .7s;
+}
+/* hoverすると2枚目の画像が透明じゃなくなる */
+.box:hover a {
+  opacity: 1;
+}
+
+ #photo{width: 24vw;
+    display: block; 
+    margin: auto;
+    margin-bottom:0vw;
+    margin-left:0.8vw;
+    margin-top: 0px;
+
+ 
+ 
+ }
+ #photo1{width: 24vw;
+    display: block; 
+    margin: auto;
+    margin-bottom:0vw;
+    margin-left:0.8vw;
+    margin-top: 0px;
+
+ 
+ 
+ }
+ #photo3{width: 24vw;
+    display: block; 
+    margin: auto;
+    margin-bottom:0.8vw;
+    margin-left:0.8vw;
+    margin-top: -14.73vw;
+
+ 
+ 
+ }
+ #photo4{width: 24vw;
+    display: block; 
+    margin: auto;
+    margin-bottom:0.8vw;
+    margin-left:0.8vw;
+    margin-top: -14.73vw;
+
+ 
+ 
+ }
+#photo10{width: 21vw;
+    display: none; 
+    margin: auto;
+    margin-bottom:0.33vw;
+    margin-left:7.5vw;
+    margin-top: 0px;
+
+ 
+ 
+ }
+ #photo11{width: 21vw;
+    display: none; 
+    margin: auto;
+    margin-bottom:0.33vw;
+    margin-left:0.33vw;
+    margin-top: 0px;
+
+ 
+ 
+ }
+ .footer {
+    height: 15vw;
+    background-color:transparent;
+    box-sizing: border-box;
+    border: 0px solid blue;
+    position: sticky;
+    top: 00px;
+       
+      }
+ 
+ 
+ 
+ @media screen  and ( max-width:768px) {
+ 
+     
+  #name{width: 50.45vw;
+    display: block; 
+    margin-left:4.45vw;
+    margin-top: 7.34vw;
+    margin-bottom:17.18vw;
+    }
+#menu1{width:0px;
+    display:none; 
+    margin: auto;
+    position: absolute;
+    top:10px;
+    right:auto;}
+     #menu2{width:0vw;
+    display: none; 
+    margin-top: 3vw;
+    margin-left: 0vw;}
+    #menu{width: 16.76vw;
+        display: block; 
+        margin-left:1.93vw;
+        margin-top: 7.34vw;
+        margin-bottom:17.18vw;
+        }
+     #taiyo{width: 7.84vw;
+            height: 7.84vw;
+        display: block; 
+        margin-left:16.6vw;
+        margin-top: 7.34vw;
+        margin-bottom:17.18vw;
+        }
+        #instagram{width: 00px;
+            display: none; 
+            margin: auto;
+            position: absolute;
+            top:10px;
+            right:auto;}
+  
+
+  .header {
+          
+          height: 100px;
+          background-color:transparent;
+          box-sizing: border-box;
+          border: 0px solid blue;
+          position: sticky;
+          top: 00px;
+             
+            }
+  
+  .main {
+          display: flex;
+          flex-direction: column;
+          flex-grow:1;
+            }
+  
+ 
+  .content {
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+            }
+
+     .box a:last-of-type {
+  display: none;
+  opacity: 0;
+  transition: opacity .7s;
+}
+     .box a:first-of-type {
+  display: none;
+  opacity: 1;
+}
+.boxsp a:last-of-type {
+  display: block; 
+  opacity: 1;
+}
+/* hoverすると2枚目の画像が透明じゃなくなる */
+.box:hover a {
+  opacity: 1;
+}
+
+  
+  #photo{width: 85vw;
+    display: none; 
+    margin: auto;
+    margin-bottom:5vw;
+    margin-left:7.5vw;
+    margin-top: 0px;
+
+ 
+ 
+ }
+ #photo1{width: 85vw;
+  display: none; 
+  margin: auto;
+  margin-bottom:5vw;
+  margin-left:7.5vw;
+  margin-top: 0px;
+
+
+
+}
+#photo2{width: 85vw;
+  display: block; 
+  margin: auto;
+  margin-bottom:5vw;
+  margin-left:7.5vw;
+  margin-top: 0px;
+
+
+
+}
+     #photo3{width: 85vw;
+    display: none; 
+    margin: auto;
+    margin-bottom:5vw;
+    margin-left:7.5vw;
+    margin-top: -57.099vw;
+
+ 
+ 
+ }
+ #photo4{width: 85vw;
+  display: none; 
+  margin: auto;
+  margin-bottom:5vw;
+  margin-left:7.5vw;
+  margin-top: -57.099vw;
+
+
+
+}
+#photo10{width: 96.13vw;
+    display: block;
+    margin-bottom:1.93vw;
+    margin-left:1.93vw;
+    margin-top: 0px;
+
+ 
+ 
+ }
+ #photo11{width: 96.13vw;
+  display: block; 
+  margin-bottom:1.93vw;
+  margin-left:1.93vw;
+  margin-top: 0px;
+
+
+
+}
+  .footer {
+    height: 15vw;
+    background-color:transparent;
+    box-sizing: border-box;
+    border: 0px solid blue;
+    position: sticky;
+    top: 00px;
+       
+      }
+  
+ }
+ 
